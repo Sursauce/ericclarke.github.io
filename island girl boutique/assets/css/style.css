@@ -1,0 +1,64 @@
+body {
+  background: #fff;
+}
+
+body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+  -moz-animation: none  ;
+  -webkit-animation: none  ;
+  -ms-animation: none  ;
+  animation: none  ;
+  -moz-transition: none  ;
+  -webkit-transition: none  ;
+  -ms-transition: none  ;
+  transition: none  ;
+}
+
+body, input, select, textarea {
+  color: #9a9a9a;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+/***This @ media screen section is used to help display the website properly on different
+devices***/
+@media screen and (max-width: 1680px) {
+
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
+
+}
